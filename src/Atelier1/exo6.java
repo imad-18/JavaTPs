@@ -11,6 +11,7 @@ public class exo6 {
         int joueur = 0;
         int temp = 0;
         int fois = 0;
+        int wins = 0;
 
         while(true){
             Scanner sc = new Scanner(System.in);
@@ -33,6 +34,7 @@ public class exo6 {
                     System.out.println("La aleur saisi est grande");
                 }else {
                     System.out.println("Congrats, la valeur est "+i1);
+                    wins++;
                     break;
                 }
                 temp++;
@@ -45,7 +47,7 @@ public class exo6 {
                 System.out.println("To continue tap 1, else 0:");
                 int tryAgain = sc.nextInt();
                 if (tryAgain == 0) {
-                    System.out.println("Vous avez jouer "+fois);
+                    System.out.println("Vous avez joué "+fois+" fois.\n"+wins+" gagné.");
                     break;
                 }else{
                     temp = 0;
