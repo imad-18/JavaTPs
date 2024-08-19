@@ -1,6 +1,6 @@
 package Atelier2;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class exo1 {
     public static void main(String[] args) {
