@@ -29,3 +29,15 @@ public class exo1 {
         return false;
     }
 }
+/*
+Input:
+    arr2 = {1, 2, 3, 4, 5};
+    arr1 = {2, 3};
+Output:
+    True
+Input:
+    arr2 = {1, 2, 3, 4, 5};
+    arr1 = {2, 4};
+Output:
+    false
+*/
